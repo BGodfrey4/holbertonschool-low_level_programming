@@ -1,5 +1,12 @@
 #include<stdio.h>
-int main (){
+/**
+ * main-sentence
+ *
+ * Return:sentence
+ */
+
+int main(void)
+{
 	puts("\"Programming is like building a multilingual puzzle");
 
 	return (0);
