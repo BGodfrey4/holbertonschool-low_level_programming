@@ -3,7 +3,7 @@
 #include <stdio.h>
 /**
  *main - assigns random variable
- * 
+ *
  * Return: 0*
  */
 int main(void)
