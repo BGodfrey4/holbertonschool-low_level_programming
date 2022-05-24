@@ -6,7 +6,7 @@
  * @n: is a variable
  * Return: 0*
  */
-int main(void)
+int main(0)
 {
 int n;
 
