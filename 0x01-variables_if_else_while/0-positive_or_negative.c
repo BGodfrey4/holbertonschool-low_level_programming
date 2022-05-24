@@ -1,18 +1,17 @@
+#include <stdlib.h>
+#include <time.h>
 #include <stdio.h>
-/**
- * main - Entry point
- *
- * Return: Always 0 (Success)
+/** 
+ * main - assigns random variable
+ * @n: is a variable
+ * Return: 0*
  */
-int main (void) 
-{ 
-	if (n > 0)
-	   printf("%d", is positive." n);
-	else if (n < 0)
-	   printf(%d is negative.", n);
-	else if (n == 0)
-	   printf("%d is zero.", n);
-		
-	return 0;
+int main(void)
+{
+	int n;
 
+	srand(time(0));
+	n = rand() - RAND_MAX / 2;
+	(n = 0); (n < 0); (n < 0);
+	return (0);
 }
