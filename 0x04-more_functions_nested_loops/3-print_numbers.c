@@ -1,10 +1,10 @@
 #include "main.h"
 #include <stdio.h>
 /**
- * main - check the code
- *
- *
- */
+* print_numbers - idk
+*
+*
+*/
 void print_numbers(void)
 {
 	char c = '0';
