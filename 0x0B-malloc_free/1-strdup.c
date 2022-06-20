@@ -1,5 +1,5 @@
 #include <stdlib.h>
-#include "holberton.h"
+#include "main.h"
 
 /**
 * *_strdup - copies the string given as parameter
@@ -26,7 +26,7 @@ char *_strdup(char *str)
 	if (dup == NULL)
 	return (NULL);
 
-	while ((dup[i] = str[i]) != '\0')						
+	while ((dup[i] = str[i]) != '\0')
 	i++;
 
 	return (dup);

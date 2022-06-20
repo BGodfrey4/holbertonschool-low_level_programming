@@ -2,12 +2,12 @@
 #include "main.h"
 
 /**
-* *create_array - creates an array of chars,
-* and initializes it with a specific char
-* @size: size of the array to create
-* @c: char to initialize the array c
+* *create_array - will create an array of chars,
+* then will initialize it with a specific char
+* @size: is the size of the array to create
+* @c: is the char to initialize the array c
 *
-* Return: pointer to the array (Success), NULL (Error)
+* Return: is the pointer to the array (Success), NULL (Error)
 */
 char *create_array(unsigned int size, char c)
 {
@@ -25,7 +25,7 @@ char *create_array(unsigned int size, char c)
 	while (i < size)
 {
 	*(p + i) = c;
-													i++;
+														i++;
 }
 
 	*(p + i) = '\0';
